@@ -1,0 +1,29 @@
+{
+  "name": "java-import-wiz",
+  "main": "./lib/index",
+  "version": "0.0.0",
+  "description": "Helper for java file imports",
+  "keywords": [
+    "java",
+    "import"
+  ],
+  "repository": "https://github.com/noseglid/java-import-wiz",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "providedServices": {
+    "java.import": {
+      "description": "Put imports into Java files",
+      "versions": {
+        "1.0.0": "provideImport"
+      }
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.9.0",
+    "eslint-config-atom-build": "^3.0.0"
+  }
+}
