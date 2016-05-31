@@ -20,7 +20,16 @@
       }
     }
   },
-  "dependencies": {},
+  "consumedServices": {
+    "java.classpath-registry": {
+      "versions": {
+        "^1.0.0": "consumeJavaClasspathRegistry"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.2.0"
+  },
   "devDependencies": {
     "babel-eslint": "^6.0.4",
     "eslint": "^2.9.0",

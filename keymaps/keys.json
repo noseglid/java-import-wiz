@@ -1,0 +1,5 @@
+{
+  "atom-text-editor": {
+    "ctrl-alt-i": "java-import-wiz:do-import"
+  }
+}
