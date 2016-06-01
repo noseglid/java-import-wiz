@@ -34,5 +34,13 @@
     "babel-eslint": "^6.0.4",
     "eslint": "^2.9.0",
     "eslint-config-atom-build": "^3.0.0"
+  },
+  "configSchema": {
+    "separateGroups": {
+      "title": "Separate import groups with newlines",
+      "description": "If checked, groups such as com., org. and java. will be separated by a newline.",
+      "type": "boolean",
+      "default": true
+    }
   }
 }

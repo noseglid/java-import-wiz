@@ -1,5 +1,6 @@
 {
   "atom-text-editor": {
-    "ctrl-alt-i": "java-import-wiz:do-import"
+    "ctrl-alt-i": "java-import-wiz:do-import",
+    "ctrl-alt-o": "java-import-wiz:organize-imports"
   }
 }
