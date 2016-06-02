@@ -36,9 +36,3 @@ to insert imports after autocompleting. When autocompleting classes they will au
 added to the import list.
 
 ![Demonstrative autocomplete import](autocomplete-import.gif?raw=true "Organize Imports")
-
-## Getting started
-
-To use this package you only need to install it and `autocomplete-java-minus`.
-Once you've setup `autocomplete-java-minus` so that it provides autocomplete
-suggestions, they will automatically be imported.
