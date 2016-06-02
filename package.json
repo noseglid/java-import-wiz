@@ -37,10 +37,16 @@
   },
   "configSchema": {
     "separateGroups": {
-      "title": "Separate import groups with newlines",
+      "title": "Separate import groups with newlines.",
       "description": "If checked, groups such as com., org. and java. will be separated by a newline.",
       "type": "boolean",
       "default": true
+    },
+    "importGrouping": {
+      "title": "Group imports which do not share the top level namespace.",
+      "description": "Can be used to group e.g. java and javax as one group. Only works on top level namespace. Formatted as an array of arrays. Entries of the inner arrays will be grouped together.",
+      "type": "string",
+      "default": "[ [ \"java\", \"javax\" ], [ \"com\", \"org\" ] ]"
     }
   }
 }
