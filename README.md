@@ -7,13 +7,13 @@ Manage your java imports. `java-import-wiz` works together with [`java-classpath
 Place the cursor on the class and press <kbd>ctrl</kbd><kbd>alt</kbd><kbd>i</kbd>. If the class is unambiguous it will automatically
 be added to the import statements. If multiple possibilities exists, `java-import-wiz` will let you choose from a list.
 
-![Demonstrative manual import](manual-import.gif?raw=true "Manual imports")
+![Demonstrative manual import](https://github.com/noseglid/java-import-wiz/raw/master/manual-import.gif?raw=true "Manual imports")
 
 ## Organizing imports
 
 You can organize imports by pressing <kbd>ctrl</kbd><kbd>alt</kbd><kbd>o</kbd>.
 
-![Demonstrative import organization](ordering-imports.gif?raw=true "Organize Imports")
+![Demonstrative import organization](https://github.com/noseglid/java-import-wiz/raw/master/ordering-imports.gif?raw=true "Organize Imports")
 
 There are two settings available to control the behavior of the import organizer.
 
@@ -35,4 +35,4 @@ Works together with [`autocomplete-java-minus`](https://github.com/noseglid/auto
 to insert imports after autocompleting. When autocompleting classes they will automatically be
 added to the import list.
 
-![Demonstrative autocomplete import](autocomplete-import.gif?raw=true "Organize Imports")
+![Demonstrative autocomplete import](https://github.com/noseglid/java-import-wiz/raw/master/autocomplete-import.gif?raw=true "Organize Imports")
